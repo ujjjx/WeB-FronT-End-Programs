@@ -1,0 +1,44 @@
+
+header{
+    text-align: center;
+    background-color: rgba(102, 0, 255, 0.989);
+    background-image: linear-gradient(rgba(102, 0, 255, 0.989),#9FBEEA);
+    color:white;
+    padding: 20px;
+}
+p{
+    margin-left: 40px;
+    margin-bottom:0px;
+}
+body{
+    margin:0px;
+}
+h2, h3 {
+    margin-left: 20px;
+    margin-top: 0px;
+}
+ol {
+    margin-left: 60px;
+    margin-top:0px;
+    margin-bottom: 0px;
+}   
+.main1{
+    color: white;
+    background-image: url(https://cache.careers360.mobi/media/presets/860X430/article_images/2019/9/30/IP-University-Admission-2020.jpg);
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+    background-size:cover
+}
+.intermediate{
+    background-image: linear-gradient(#4D515E,#A3BCF2);
+}
+.main2{
+    color: white;
+    background-image: url(https://ipubuzz.com/wp-content/uploads/2020/08/IMG_20200206_105108-1-1-scaled.jpg);
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+    background-size:cover 
+}
+hr{
+    margin: 0px;
+}
