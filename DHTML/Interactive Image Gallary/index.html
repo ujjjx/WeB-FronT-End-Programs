@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Interactive Image Gallery</title>
+</head>
+<body>
+    <h1>Interactive Image Gallery</h1>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="image1.jpg" alt="image1" onclick="openModel('image1.jpg')">
+        </div>
+        <div class="gallery-item">
+            <img src="image2.jpg" alt="image2" onclick="openModel('image2.jpg')">
+        </div>
+        <div class="gallery-item">
+            <img src="image3.jpg" alt="image3" onclick="openModel('image3.jpg')">
+        </div>
+    </div>
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span> 
+        <!-- &times is used to create X mark  -->
+        <img class="modal-content" id="modalImg">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+.accordion{
+    background-color: #eee;
+    color: #444;
+    cursor: pointer; /* Add some hover effect */
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+.accordion:hover {
+    background-color: #ccc;
+}
+.panel{
+    display: none;
+    padding: 0 18px;
+    background-color: white;
+    overflow: hidden;
+}
+  
+.panel p{
+    margin: 0;
+}
+  
+.panel.show {
+    display: block;
+}
+/* .show is not present in html code. Instead, it is dynamically added and removed using JavaScript to control the visibility of the answer panels.
+*/

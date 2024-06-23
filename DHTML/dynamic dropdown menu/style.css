@@ -1,0 +1,36 @@
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropbtn{
+    background-color: #3498db;
+    color: white;
+    padding:10px;
+    font-size:16px;
+    border:none;
+    cursor:pointer;
+}
+.dropdown-content{
+    display: none; /*hide the dropdown content*/
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1; /*display the dropdown content on top of other elements*/
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover { /*change color of the dropdown content when hover*/
+    background-color: #f1f1f1;
+}
+.show {display:block;}  /*.show is not directly used. In CSS, .show class is often used in 
+conjugation with JavaScript to dynamically control the display of elements. In this case, it might be used 
+to show or hide the dropdown content based on user interaction. 
+Let's say when the user clicks on the button, JavaScript adds .show class to the dropdown content, making it visible
+
+In the JavaScript file(script.js), the toggleMenu() function likely adds or removes the .show class to the dropdown content
+based on its current state.*/

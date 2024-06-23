@@ -1,0 +1,25 @@
+/* Styles for task board */
+.board {
+    display: flex;
+}
+  
+.column {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+}
+  
+.column h2 {
+    margin-top: 0;
+}
+  
+.task {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    cursor: move;
+}
+  
