@@ -1,0 +1,87 @@
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    margin: 10px;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  /* Input field styles */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* The box-sizing property allows us to include the padding and border in an element's total width and height. */
+  }
+  .submit-btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;      
+}
+.submit-btn:hover {
+    background-color: #45a049;
+  }
+/* File input styles */
+.file-input {
+    margin-top: 10px;
+    height: 40px;
+  }
+  .file-input input[type="file"] {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+  }
+  /* Heading styles */
+h2 {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+ /* margins are used to create space around elements */
+  /* The CSS margin properties are used to create space around elements, outside of any defined borders.
+With CSS, you have full control over the margins. There are properties for setting the margin for each side of an element (top, right, bottom, and left).
+ */
+ /* padding in css means  */
+ /* In CSS, the padding property is used to generate space around 
+ an element's content, inside of any defined borders.
+ 
+ padding: 25px => applies 25 px padding to all four sides of an element
+ padding: 25px 50px => applies 25px padding to the top and bottom and 50px padding 
+ to the left or right
+ padding: 25px 50px 75px: applies 25px padding to the top, 50px padding to the left and right and 75 px padding 
+ to the bottom
+ */
+ /* The box-shadow property in CSS is used to apply a shadow effect to an element. It takes several values 
+ 
+ The first value 0 is the horizontal offset of the shadow. A positive value pushes the shadow to the right while the
+ negatice value pushes it to the left.
+ /*The second value 0 is the vertical offset of the shadow. A positive value pushes the shadow down, while a negative value pushes it up.
+The third value 10px is the blur radius. The larger this value, the more blurred the shadow will be.
+The last value rgba(0, 0, 0, 0.1) is the color of the shadow. rgba stands for red green blue alpha, where alpha represents the opacity of the color. 
+/* Here, the color is black (0, 0, 0) with 10% opacity (0.1). */ 
+
+/* display:block 
+The element will start from a new line and takes up the full width available stretching out to the left and right as far as it can */
+
+/* In CSS, when an element has display:flex it becomes a flex container and its children becomes flex items. */

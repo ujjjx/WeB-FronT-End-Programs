@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        <h1>Query Selector</h1>
+        <ul>
+            <li><b>query selector</b>:allows users to select and retrieve elements from the DOM using CSS selectors.</li>
+            <li>It returns the first element that matches the specified selector</li>
+            <li><pre>var element = document.querySelector(selector);</pre></li>
+            <li>document.querySelector("#myId") selects the element with the ID "myId".</li> 
+            <li>document.querySelector(".myClass") selects the first element with the class "myClass".</li>
+            <li>document.querySelector("div.myClass") selects the first <div> element with the class "myClass".</li>
+            <li>querySelector returns null if no matching element is found in the document.</li>
+        </ul>
+        <h1>Add Event Listener</h1>
+        <ul>
+            <li><b>addEventListener</b> method is used to attach an event listener to an HTML element</li>
+            <li>This method allows you to listen for specific events for specific elements, such as mouse click,keypress or form submission.</li>
+            <li>Execute a callback function in response to that event</li>
+            <li><pre>element.addEventListener(event,function,useCapture)</pre></li>
+            <ul>
+                <li>element: The HTML element to which you want to attach event listener</li>
+                <li>event: A string represents the name of the event to listen(e.g.,"click","submit")</li>
+                <li>function: The function to be executed when the event is triggered</li>
+                <li>useCapture: A boolean value that specifies whether the event should be executed in the capturing or bubbling phase. It is optional and its default value is false.</li>
+            </ul>
+        </ul>
+        <pre>
+// Get the button element
+const button = document.getElementById('myButton');
+
+// Add an event listener for the click event
+button.addEventListener('click', function(event) {
+    console.log('Button clicked!');
+});
+        </pre>
+    </p>
+    <p>In Javascript, the event parameter in the function is referring to the event object that contains information
+    about the event that has occurred. When an event is triggered (such as mouse click,keypress or form submission), an 
+    event object is automatically created by the browser and passed as an argument to the event handler function
+    </p>
+    <br>
+    <p> The event object provides various properties and methods that allows you to access information about the event, 
+    such as the type of event, the target element that triggered it, the coordinates of the mouse pointer that clicks it
+    and so on. </p>
+    <ul>
+        <li> Various properties of event handler are</li>
+        <li>  event.type</li>
+        <li>event.key </li>
+        and so on
+    </ul>  
+    </p>
+    <h1>getElementById</h1>
+    <ul>
+        <li>Used to retrieve html element from document by its unique identifier known as ID</li>
+        <li><pre>document.getElementById(id)</pre></li>
+        <li>document: This refers to the entire HTML document. It represents the root node of the HTML document tree.</li>
+        <li>getElementById: This is the method used to retrieve an element from the document based on its ID.</li>
+        <li>id: This is a string parameter that specifies the ID attribute value of the element you want to retrieve.</li>
+        <li>querySelector can do every work which can be done from getElementById</li>
+    </ul>
+</body>
+</html>

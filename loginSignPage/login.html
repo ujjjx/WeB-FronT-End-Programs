@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login and Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body class = "roboto-regular">
+    <h2>Login Page</h2>
+    <form class = "form-container">
+      <label for="name">Username:</label><br />
+      <input type="text" id="name" name="name" class="input-field"/><br />
+      <label for="password">Password:</label><br />
+      <input type="password" id=" password" name="password" class="input-field"/><br />
+      <input type="submit" value="Login" class="submit-btn"/>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
+<!-- name attribute: This attribute is used to reference form data after 
+a form is submitted in your code, you have two name attributes:
+"usename" and "password". These will be used as keys when the form data is submitted-->
+
+<!-- value attribute: THis attribute is used to provide an initial value for an input field.
+The value attribute is used in the submit input field with a value of "Login".
+This means that the text displayed on the submit button will be "Login"-->
+
+<!-- The label tag in HTML is used to provide a text description for form elements.
+It has the following properties. -->
+<!-- for: This attribute associates the label with a specific form input element.
+The value of the for attribute must be same as the id of the input element.
+
+for = "name" means that this label is associated with an input element that has 
+id="name"-->
